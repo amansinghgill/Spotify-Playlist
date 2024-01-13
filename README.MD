@@ -38,8 +38,26 @@ Before you can run this script, you'll need to set up some prerequisites:
 5. Finally, it will search for each song on Spotify and add the matching tracks to the newly created playlist.
 
 
-<img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/88f2557a-6030-4577-a703-eb4832d41d72" alt="example" width="600px" style="margin: 0 auto; display: block; padding-bottom: 20px;">
+<div style="text-align:center">
+  <img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/88f2557a-6030-4577-a703-eb4832d41d72" alt="example" width="600px" style="display: block; padding-bottom: 20px;">
+</div>
 
-<img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/72c8b517-b664-4a37-8c01-84c7d5cdd992" alt="UI" width="600px" style="margin: 0 auto; display: block;">
+<div style="text-align:center">
+  <img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/72c8b517-b664-4a37-8c01-84c7d5cdd992" alt="UI" width="600px" style="display: block;">
+</div>
+
+## Notes
+
+- If a song is not found on Spotify, it will be skipped, and you will see a message indicating which songs were not found.
+
+- The script uses the Spotify API's `playlist-modify-private` scope to create and modify private playlists on your account.
+
+- The Spotify API requires you to set up a redirect URI when creating your Spotify Developer Application. In the script, it's set to "http://example.com". You can change it to your own redirect URI if needed.
+
+- The script caches the Spotify access token in a file named `token.txt` for future use. Make sure to keep this file secure.
+
+- The Spotify playlist is created as a private playlist by default. You can change the `public` parameter in the `user_playlist_create` function to `True` if you want to make it public.
+
+- Replace `'your_spotify_username'` with your actual Spotify username.
 
 Enjoy creating your personalized Billboard Hot 100 playlists on Spotify!
