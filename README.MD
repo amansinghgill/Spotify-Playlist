@@ -38,13 +38,17 @@ Before you can run this script, you'll need to set up some prerequisites:
 5. Finally, it will search for each song on Spotify and add the matching tracks to the newly created playlist.
 
 
-<div style="text-align:center">
-  <img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/88f2557a-6030-4577-a703-eb4832d41d72" alt="example" width="600px" style="display: block; padding-bottom: 20px;">
-</div>
+<center>
 
-<div style="text-align:center">
-  <img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/72c8b517-b664-4a37-8c01-84c7d5cdd992" alt="UI" width="600px" style="display: block;">
-</div>
+<p align="center">
+  <img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/88f2557a-6030-4577-a703-eb4832d41d72" alt="example" width="600px">
+</p>
+
+<p align="center">
+  <img src="https://github.com/amansinghgill/Spotify-Playlist/assets/90486946/72c8b517-b664-4a37-8c01-84c7d5cdd992" alt="example" width="600px">
+</p>
+
+</center>
 
 ## Notes
 
